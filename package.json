@@ -1,0 +1,25 @@
+{
+  "name": "http2-module-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "James Friend <james@jsdf.co> (http://jsdf.co/)",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.4.3",
+    "browserify-incremental": "^3.0.0",
+    "concat-stream": "^1.4.8",
+    "dev-null": "^0.1.1",
+    "getscript": "^0.1.0",
+    "http2": "^3.2.0",
+    "through2": "^0.6.5",
+    "whatwg-fetch": "^0.8.1"
+  },
+  "devDependencies": {
+    "babelify": "^6.1.1"
+  }
+}
